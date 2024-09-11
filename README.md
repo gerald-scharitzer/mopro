@@ -2,7 +2,11 @@
 
 the safe, efficent, and ergonomic way
 
+Install Magic based on https://docs.modular.com/magic/.
+
 # Project
+
+Create Mojo projects with `magic init <project> --format mojoproject` where `<project>` is the project name.
 
 Store source files in the `src/` subtree.
 
