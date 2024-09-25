@@ -7,10 +7,13 @@ Install Magic based on https://docs.modular.com/magic/.
 # Project
 
 Create Mojo projects with `magic init <project> --format mojoproject` where `<project>` is the project name.
+The first time you do this in your environment takes longer, because Mojo depends on MAX, which will be downloaded first.
 
 Store source files in the `src/` subtree.
 
 Name the main module (the primary module with a `main()` function) `main.mojo`.
+
+Add direct dependencies with `magic add <package>`.
 
 # Collections
 
