@@ -1,6 +1,6 @@
 [project]
 authors = ["gerald-scharitzer <gerald.scharitzer@gmail.com>"]
-channels = ["conda-forge", "https://conda.modular.com/max"]
+channels = ["conda-forge", "https://conda.modular.com/max", "gerald-scharitzer"]
 description = "Add a short description here"
 name = "mopro"
 platforms = ["linux-64"]
@@ -10,3 +10,4 @@ version = "0.1.0"
 
 [dependencies]
 max = ">=24.5.0,<25"
+tephrite = ">=0.1.0a0.dev0,<0.2"
