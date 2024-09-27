@@ -16,6 +16,8 @@ Name the main module (the primary module with a `main()` function) `main.mojo`.
 Add direct dependencies with `magic add <package>`.
 For packages from other channels, add these channels to `mojoproject.toml/project.channels` first.
 Mojo packages are installed as `.mojopkg` files in `.magic/envs/<env>/lib/mojo/` where `<env>` is the environment name.
+The Mojo VS Code extension does not search this for packages and thus does not find these dependencies,
+but `magic run mojo ...` does and works fine.
 
 # Collections
 

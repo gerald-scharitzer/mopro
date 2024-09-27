@@ -1,3 +1,5 @@
+import tephrite
+
 fn main() -> None:
 	# var values_literal = [1, 2, 3]
 	# var value = values_literal[0] # error: 'ListLiteral[Int, Int, Int]' is not subscriptable, it does not implement the `__getitem__`/`__setitem__` or `__refitem__` methods
@@ -6,3 +8,4 @@ fn main() -> None:
 	for value_ref in values:
 		var value = value_ref[]
 		print(value)
+	print(tephrite.VERSION)
